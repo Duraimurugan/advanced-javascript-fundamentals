@@ -26,10 +26,10 @@ mutateObject(obj)
 console.log(obj) // {a: 2}
 
 let num = 1
-function addTwo(num) {
+function mutatePrimitiveType(num) {
   num = num + 2
   console.log(num) // 3
 }
-addTwo(num)
+mutatePrimitiveType(num)
 console.log(num) // 1
 
