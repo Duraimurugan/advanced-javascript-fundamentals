@@ -16,13 +16,16 @@ whenever a function is created, JS creates it with .protoype property
 ## var, let, const
 ###### Scope 
 var = function execution scope
+
 let/const = block scope
 
 ###### Hoisting
 var = hoisted to the top of the execution context
+
 let/const - not hoisted
 
 ###### Redeclaration
 var = No error
+
 let/const error
 
