@@ -76,3 +76,5 @@ class Square extends Rectangle {
         return "Hello, all " + super.callRectangle()
     }
 } 
+
+console.log(Square.whoAmI()) //Hello, all hello world
