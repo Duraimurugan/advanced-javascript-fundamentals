@@ -12,3 +12,9 @@ const person = {
 }
 
 console.log(person.getName());
+
+/**
+ * Arrow function does not have 'this' keyword
+ * Treats the 'this' context keyword as a regular variable
+ * 
+ */
