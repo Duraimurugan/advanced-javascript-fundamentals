@@ -46,3 +46,6 @@ let firstName = 'tyler';
 }
 
 console.log(firstName);
+
+
+// Disadvantage of var getting hoisted to the top
