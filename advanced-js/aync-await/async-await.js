@@ -1,3 +1,4 @@
+
 const run = (cb) => {
     setTimeout(() => {
         cb('1s');
@@ -26,5 +27,8 @@ const runAsync = async (cb)  => {
     await delay(1000);
     cb('3s')
 }
+// runAsync((time) => console.log(time));
 
-runAsync((time) => console.log(time));
+const example = new Promise((res, rej) => {
+    
+})
