@@ -11,7 +11,7 @@
         // iterable methods
         --- myMap.keys();
         --- myMap.values();
-        --- myMap.enteries();
+        --- myMap.entries();
 
 ## Weak Map
     ** No references are held to the keys of the map **
