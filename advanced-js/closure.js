@@ -23,8 +23,22 @@ function outerFunction() {
 const run = outerFunction();
 run();  // Javascript runs on Browsers
 
-// example 2
-[1].map(a => a * 2);  //[2]
 
 // The Array.map() function is a closure function because
 // its nested function within a function has access to its parent's scope
+
+// example 2
+[1].map(a => a * 2);  //[2]
+
+
+// example 3: 
+// Simple closure
+
+let i=0;
+let closure = () => {
+    console.log(i++);
+};
+
+closure(); // 0
+closure(); // 1
+closure(); // 2
