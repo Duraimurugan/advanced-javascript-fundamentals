@@ -42,3 +42,30 @@ let closure = () => {
 closure(); // 0
 closure(); // 1
 closure(); // 2
+
+/* reference: mdn
+Closure with modularity
+*/
+
+let counter = (() => {
+	value = 0;
+  
+  return {
+  	increment: () => {
+    value = value + 1
+    	return value;
+    },
+    decrement: () => {
+    	return value--;
+    },
+    count: () => {
+    	return value;
+    }
+  }
+})();
+
+console.log(counter.count());
+console.log(counter.increment());
+console.log(counter.increment());
+console.log(counter.count());
+console.log(counter.decrement());
